@@ -4,7 +4,7 @@ Contains the webapp and the backend algorithmic trading repo.
 
 -----------------------------------------------------------------------------------------------
 ToDo
-- hide pricing url 
+- hide pricing url in congif.json in gitignore too
 - need only one price thread there shouldnt be more than one
 	- this will require the price thread to get kicked off when there
 	is atleast one user trading
