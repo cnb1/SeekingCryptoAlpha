@@ -4,7 +4,6 @@ Contains the webapp and the backend algorithmic trading repo.
 
 -----------------------------------------------------------------------------------------------
 ToDo
-- get the post request from the front end to properly return the value
 - need only one price thread there shouldnt be more than one
 	- this will require the price thread to get kicked off when there
 	is atleast one user trading
