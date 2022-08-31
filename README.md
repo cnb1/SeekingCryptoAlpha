@@ -4,8 +4,14 @@ Contains the webapp and the backend algorithmic trading repo.
 
 -----------------------------------------------------------------------------------------------
 ToDo
-- create submitted initial amount in globals and use this to calculate current and end P/L so
-    that the total value in the portfolio is just added or subtracted from
+- last major feature... the updating of the prices and values
+
+    1) static submitted value is used to calculate P/L for each request
+    2) this request then updates the value in portfolio based on p/l so menu amount should update
+    3) this then stores the value in the value array then updating the chart
+    4) last value in value array should always equal value
+
+
 - get current value amount (fetch commad from) this also needs a button to fetch prices
 - when the program is stopped then the total amount 
 - if balance is less than or eqal to zero stop trading
